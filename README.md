@@ -19,13 +19,37 @@ Expected Output: False
 
 Test: "if it starts with a vowel than add "way" to it."
 Code:
+    word = "old"
+    pigLatin(word)
+Expected Output: "oldway"
+
+Test: "if it starts with a consonant than move the first letter to the end."
+Code:
+    word = "cat"
+    pigLatin(word)
+Expected Output: "atc"
+
+Test: "if it starts with a consonant than move all leading consonants to the end."
+Code:
+    word = "draw"
+    pigLatin(word)
+Expected Output: "awdr"
+
+Test: "if it starts with a consonant than move all leading consonants to the end and add 'ay' to it."
+Code:
+    word = "cat"
+    pigLatin(word)
+Expected Output: "atcay"
+
+Test: "if it starts 'qu' than move "qu" to the end and add 'ay' to it."
+Code:
+    word = "queen"
+    pigLatin(word)
+Expected Output: "eenquay"
+
+
+
     
-
-
-
-
-
-
 
 
 Description: constonant
